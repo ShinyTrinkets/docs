@@ -1,5 +1,5 @@
 
-## 2018-September-18 (Tuesday) DRAFT | ⭐️ ⚙️
+## 2018-September-18 (Tuesday) | ⭐️ ⚙️
 
 Let's start with the beggining: what's the focus of the **Trinkets** applicatins, when and where did this idea start and why this is still relevant today. I'll talk about the "how" another time.
 
@@ -19,17 +19,18 @@ Over the years, I did spend some time here and there on this project, but my foc
 * 2014 - Triceratops.rb - written in Ruby (pretty small experiment really)
 * 2016 - Triceratops.js - before ES6 (pretty small and sad experiment)
 * 2016 - Triceratops.ex - written in Elixir, probably the most elegant implementation
-* 2016 - Triceratops.py - written in Python3.5, this was the most advanced version, the scripts were written in in Coconut
+* 2016 - Triceratops/Trinkets.py - written in Python3.5, this was the most advanced version, the scripts were written in in Coconut
 
-Around 2017 I renamed the project to Trinkets.
+At the end of 2016 I renamed the project to Trinkets.
 
 * 2017 - Trinkets.js take 2 - using ES6, I spent a lot of time in this one, before I switched to Golang
+* 2018 - TwoFold.cr - some experiments in Crystal lang (will be re-written to TwoFold.js)
 * 2018 - Spinal.go - the current implementation
 
 In 2018 I spent a lot of time thinking about the overall directions and I believe the vision of the project has matured.
 Also, instead of 1 app, now there are 3 apps and some helper libraries.
 
-1. most of the old idea of Triceratops is now called [Spinal 🌀](https://github.com/ShinyTrinkets/spinal)
+1. most of the old idea of Triceratops/Trinkets is now called [Spinal 🌀](https://github.com/ShinyTrinkets/spinal)
 2. the template/ translation/ calculator is called [TwoFold (2✂︎f)](https://github.com/ShinyTrinkets/twofold.js)
 3. the intelligence engine is called [Zero-f (0-f)](https://github.com/ShinyTrinkets/zero-f)
 4. [Overseer.go](https://github.com/ShinyTrinkets/overseer.go) is a light process manager library
@@ -43,6 +44,12 @@ If you'll look at the code, you'll quickly notice the current implementation is 
 For this to become reality the way I see it, I roughly estimate it will take me alone 10+ years to implement 😅 ...
 Considering I'm already working full time, so I have like 1-3 hours spare time to work on this everyday.
 And of course, I would have to find the time to work everyday.
+
+I already have a private blog for the Trinkets projects suite, like I have for all the major projects I was ever part of. I made the first record in April 10, 2016.
+
+Now that the project is matured, I created this public blog to open my ideas around Trinkets suite to the general audience.
+
+Pheeew! I finally explained what's this all about! I want to start writing here more often, I'm writing a lot of ideas in private alredy.
 
 --------------------------------------------------------------------------------
 
