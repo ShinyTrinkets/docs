@@ -1,7 +1,7 @@
 
 ## 2018-September-18 (Tuesday) DRAFT | ⭐️ ⚙️
 
-Let's start with the beggining: what's the focus of the Trinkets applicatins, when and where did this idea start and why this is still relevant today. I'll talk about the "how" another time.
+Let's start with the beggining: what's the focus of the **Trinkets** applicatins, when and where did this idea start and why this is still relevant today. I'll talk about the "how" another time.
 
 In 2008, I was working in a data processing company and I noticed that I was repeatedly doing the same things every X intervals of time. Depending on the client, some tasks were daily, others weekly, others monthly. And with some exceptions, when humans weren't respecting the procedures, the flow was exactly the same: get the data as ZIP/RAR from somewhere, extract it, make some preparation of the data, run some commands that convert the data to invoices/letters, compress the result, generate some reports of the input and output numbers and upload the results somewhere, or send an e-mail.
 
@@ -9,7 +9,7 @@ I also noticed that when I was doing all this stuff manually, I was forgetting s
 
 So I started first by automating the beggining of the process, and then, some parts from the end. And before I left the company, I had a really good automation flow, all written in Python.
 
-But while I was doing all that, I wasn't focused on fixing just the little problems I had at work, I was thinking about a more general application. Something that I can use at home, something that my wife would use to convert her jewelry photos and automatically upload them on her website, but even more general than that. I had no idea how to call this kind of application other than "automation stuff" and I had no idea how it would look.
+But while I was doing all that, I wasn't focused on fixing just the little problems I had at work, I was thinking about a more general application. Something that I can use at home, something that my wife would use to convert her jewelry photos and automatically upload them on her website, or something to syncronize my different documents in different places, but even more general than that... I had no idea how to call this kind of application other than "automation stuff" and I had no idea how it would look like.
 
 So I started taking notes and organizing ideas about all this project since then, and I called this "Project Triceratops".
 
@@ -26,21 +26,23 @@ Around 2017 I renamed the project to Trinkets.
 * 2017 - Trinkets.js take 2 - using ES6, I spent a lot of time in this one, before I switched to Golang
 * 2018 - Spinal.go - the current implementation
 
-In 2018 I spent a lot of time thinking about the overall direction and instead of 1 app, now there are 3 apps and some helper libraries.
+In 2018 I spent a lot of time thinking about the overall directions and I believe the vision of the project has matured.
+Also, instead of 1 app, now there are 3 apps and some helper libraries.
 
-1. most of the old idea of Triceratops is now called Spinal 🌀
-2. the template/ translation/ calculator is called TwoFold (2✂︎f)
-3. the intelligence engine is called Zero-f (0-f)
+1. most of the old idea of Triceratops is now called [Spinal 🌀](https://github.com/ShinyTrinkets/spinal)
+2. the template/ translation/ calculator is called [TwoFold (2✂︎f)](https://github.com/ShinyTrinkets/twofold.js)
+3. the intelligence engine is called [Zero-f (0-f)](https://github.com/ShinyTrinkets/zero-f)
+4. [Overseer.go](https://github.com/ShinyTrinkets/overseer.go) is a light process manager library
 
-These applications and libraries working together should accomplish my vision: I imagine Trinkets as a *distributed, self-healing, self-managing, self-hosted* alternative to *Siri + Google Now + Alexa*, combined with *IFTTT + Zapier + Automate.io + Integromat* ...
+These applications and libraries working together should accomplish my vision. I hope you're prepared for this: I imagine Trinkets as a *distributed, self-healing, self-managing, self-hosted* alternative to *Siri + Google Now + Alexa*, combined with *IFTTT + Zapier + Automate.io + Integromat* ...
 
 Sure, there are some challenges... 😄
 
 If you'll look at the code, you'll quickly notice the current implementation is 1 million years far away from how I present it... There's a huge amount of work to make that happen...
 
-For this to become reality the way I see it, I roughly estimate it will take me 10+ years to implement 😅 ...
+For this to become reality the way I see it, I roughly estimate it will take me alone 10+ years to implement 😅 ...
 Considering I'm already working full time, so I have like 1-3 hours spare time to work on this everyday.
-And of course, I would have to find the spare time to work on this everyday.
+And of course, I would have to find the time to work everyday.
 
 --------------------------------------------------------------------------------
 
