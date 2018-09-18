@@ -55,46 +55,47 @@ Pheeew! I finally explained what's this all about! I want to start writing here 
 
 ## 2018-August-15 (Wednesday) | ⭐️ ⚙️
 
-Now is the time to explain what's the purpose of Trinkets and why it exists.
+Now is the time to explain the purpose of Trinkets and why it exists.
 
 Some of the things are not yet crystal clear in my mind, so it might take some time to put them in writing and I might come back to edit this text in the future.
 
-I'm using a Github repository and not a normal blog post, both because I'm lazy and also because this is how I worked for years anyway. I kind of feel nervous when I post a public post, but writing to myself feels natural... Maybe I'll repost this text on Medium, or whatever, when I consider it finished.
+I'm using a Github repository and not a normal blog post, both because I'm lazy and because this is how I've worked for years, anyway. I kind of feel nervous when I post something in public, but writing to myself feels natural... maybe I'll repost this text on Medium, or whatever, when I consider it finished.
 
 ## What is Trinkets
 
-"Shiny Trinkets" or "Trinkets" is the name of a Github organization and is a place to create free & open applications and libraries.
-I'm writing open source for 10 years now, but the Trinkets project has a unique history, that I'll write about later.
+"Shiny Trinkets" or "Trinkets" is the name of a Github organisation - a place to create free & open applications and libraries.
 
-I have taken a lot from the open-source community, so this is my humble way of giving back.
+I've been writing open-source for 10 years now, but the Trinkets project has a unique history that I'll write about later.
+
+I have taken a lot from the open-source community and this is my humble way of giving back.
 
 Even if not the entire suite of applications is useful for someone, each application can be used separately and even more, parts of the apps can be hacked together to create new things, because the MIT license is very permissive.
 
-So these are the goals of this organization:
+These are the goals of this organisation:
 
 ## Constitution / Manifest / Philosophy
 
-Our applications are created by humans and for humans. They are not created for machines. And not for IT companies, or for marketing companies.
-The focus of the applications is not to make the creators of the apps empowered, or to make a huge profit. The focus is for the applications to be really useful and easy to use.
+Our applications are created by humans and for humans. They are not created for machines; nor are they created for companies, whether they be in IT or marketing.
+
+The focus of the applications is neither to empower their creators nor to turn a profit - the focus is for the applications to be really useful and easy to use.
 
 We believe that the tools should be totally out of our way and because of that, the software we build has special limitations and requirements.
+
 The first thing is that a piece of software should enable good practices in the user, in such a way that if the software is eliminated, the user can still use the good practices in his daily life and all the data created and used by the software is still usable by the user.
 
-User's data is **solely his own** and he must have absolute control over it.
-By default, all data is stored on user's devices and can be easily seen by the user in its entirety.
-The user might decide to store the data somewhere else (eg: cloud storage).
-The user should know where that data is located and is free to change his own past data (eg: he might want to enrich past events, or redact sensitive data).
+A user's data are solely their own and they must have absolute control over it. By default, all data are stored on user's devices and can be easily seen by the user in their entirety. The user may decide to store the data somewhere else (e.g. cloud storage). The user knows where that data are located and is free to change their own past data (e.g. they might want to enrich past events, or redact sensitive data).
 
-The conclusion that comes from the previous ideas is that it's highly preferable to store the data in human readable text files, than in a binary database, even with the risk of an acceptable performance loss.
-A good compromise can be that the "the only source of truth" are still the readable text files, but a specialized converter translates the text into an efficient binary structure, from time to time and the application uses the optimized structure.
+The conclusion that comes from the previous ideas is that it's highly preferable to store the data in human-readable text files, than in a binary database, even with the risk of an acceptable performance loss.
 
-Our software must work offline just as normal as online, because we have no central servers that dictate the behaviour of our apps. But we understand that Cloud Services are important for specific usecases so the user should be able to use them without limitation.
+A good compromise can be that the "the only source of truth" is still the readable text files, but a specialized converter translates the text into an efficient binary structure, from time to time and the application uses the optimized structure.
+
+Our software must work offline just as normal as online, because we have no central servers that dictate the behaviour of our apps. But we understand that Cloud Services are important for specific use-cases so the user should be able to use them without limitation.
 
 All the libraries and dependencies we use are carefully selected to be the best quality. And we try to keep them to a minimum.
 
 We like to call these concepts "Ethical software". Don't treat your customers like products. Just like ethical eating, that doesn't treat animals like products.
 
-We understand that this kind of software cannot satisfy everybody, but that's OK. In the same way being straight is not for everybody. Or eating vegetarian food doesn't satisfy everybody's tastes. Choice and diversity are important.
+We understand that this kind of software cannot satisfy everybody, but that's OK. Choice and diversity are important.
 
 There are other people and applications that respect the same principles and we applaud them.
 
