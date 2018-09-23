@@ -1,4 +1,19 @@
 
+## 2018-September-22 (Saturday) | ⭐️ ⚙️
+
+I just launched [TwoFold (2✂︎f)](https://github.com/ShinyTrinkets/twofold.js) v0.1 on NPM !! 🎉
+
+No. 1 reason I created TwoFold is ... to sort lines in my awesome lists :D And no. 2 is to fetch the Github or Gitlab status for those projects in the awesome lists. That's what I want to do ASAP, but I want it done properly so I'm taking the time.
+
+I have huge hopes for this library, but there's so much to do... v0.1 is just a proof of concept. I intend to go up to a certain point and I'll wait for feedback from the people using it. If the people are not too excited, I'll focus my energy back to Spinal.<br />
+If people are not too excited, it means they don't understand how powerful this concept can be, so that means I didn't explain it clear enough, or it's not that easy to use. At least I'll learn something from that.
+
+Anyway, for v0.2, I have to create a Changelog file and maybe a Roadmap file. And I'll direct people to this blog to read the history and the news.
+
+I started 2/3 of my goals now: Spinal is work in progress, TwoFold is work in progress. I haven't started Zero-F yet, but I think I won't start it this year, there's too much on my plate already...
+
+--------------------------------------------------------------------------------
+
 ## 2018-September-18 (Tuesday) | ⭐️ ⚙️
 
 Let's start with the beggining: what's the focus of the **Trinkets** applicatins, when and where did this idea start and why this is still relevant today. I'll talk about the "how" another time.
