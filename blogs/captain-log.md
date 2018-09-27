@@ -1,4 +1,20 @@
 
+## 2018-September-27 (Thursday) | ⭐️ ⚙️
+
+Wow man, where has this week gone ?! It's already Thursday...
+
+I'm still working on [TwoFold (2✂︎f)](https://github.com/ShinyTrinkets/twofold.js) v0.2, because v0.1 is not that usable and friendly.
+
+I added the option to define you own tag start and end characters to create fancy tags like `{{ whatever ? }}`, or double tags like `[[ whatever >]] ... [[< whatever ]]`.
+
+I'm passing the parameters that could come from the tags, into the transformer functions. So that works, but I'm blocked at parsing those options from the template tags. So if I would have a tag like `{{ foo bar=true qaz=1 qwerty="yes please" }}`, I can't parse that so easy with a simple Regex ...
+
+So I'm looking at a flexible enough XML / HTML parser. I checked [Parse5](https://github.com/inikulin/parse5) (used by [Reshape](https://github.com/reshape/reshape)), [HtmlParser2](https://github.com/fb55/htmlparser2) (used by [Cheerio](https://github.com/cheeriojs/cheerio)) and [HtmlJs-Parser](https://github.com/marko-js/htmljs-parser) (used by [Marko](https://github.com/marko-js/marko)). And [Snapdragon](https://github.com/here-be/snapdragon) (used by [Breakdance](https://github.com/breakdance/breakdance)). I kind of worked with all of them one way or the other, but not directly :smile:
+
+So I have to evaluate and decide if I'll use one of them, or something else, or implement my own thing.
+
+--------------------------------------------------------------------------------
+
 ## 2018-September-22 (Saturday) | ⭐️ ⚙️
 
 I just launched [TwoFold (2✂︎f)](https://github.com/ShinyTrinkets/twofold.js) v0.1 on NPM !! 🎉
@@ -6,7 +22,7 @@ I just launched [TwoFold (2✂︎f)](https://github.com/ShinyTrinkets/twofold.js
 No. 1 reason I created TwoFold is ... to sort lines in my awesome lists :D And no. 2 is to fetch the Github or Gitlab status for those projects in the awesome lists. That's what I want to do ASAP, but I want it done properly so I'm taking the time.
 
 I have huge hopes for this library, but there's so much to do... v0.1 is just a proof of concept. I intend to go up to a certain point and I'll wait for feedback from the people using it. If the people are not too excited, I'll focus my energy back to Spinal.<br />
-If people are not too excited, it means they don't understand how powerful this concept can be, so that means I didn't explain it clear enough, or it's not that easy to use. At least I'll learn something from that.
+If people are not too excited, it means I didn't explain it clear enough, or it's not that easy to use day by day, and that would make sense because not many people like command line tools. At least I'll learn something from that.
 
 Anyway, for v0.2, I have to create a Changelog file and maybe a Roadmap file. And I'll direct people to this blog to read the history and the news.
 
