@@ -1,4 +1,14 @@
 
+## 2018-October-07 (Sunday) | ⭐️ ⚙️
+
+Not too much progress with [TwoFold (2✂︎f)](https://github.com/ShinyTrinkets/twofold.js).
+
+I discovered [nearley.js](https://nearley.js.org/) and I think this will solve my parsing dilemma.
+
+Unfortunately, I have to work on personal things these weeks, so I don't think I'll make any progress this month  :disappointed:
+
+--------------------------------------------------------------------------------
+
 ## 2018-September-27 (Thursday) | ⭐️ ⚙️
 
 Wow man, where has this week gone ?! It's already Thursday...
@@ -9,7 +19,7 @@ I added the option to define you own tag start and end characters to create fanc
 
 I'm passing the parameters that could come from the tags, into the transformer functions. So that works, but I'm blocked at parsing those options from the template tags. So if I would have a tag like `{{ foo bar=true qaz=1 qwerty="yes please" }}`, I can't parse that so easy with a simple Regex ...
 
-So I'm looking at a flexible enough XML / HTML parser. I checked [Parse5](https://github.com/inikulin/parse5) (used by [Reshape](https://github.com/reshape/reshape)), [HtmlParser2](https://github.com/fb55/htmlparser2) (used by [Cheerio](https://github.com/cheeriojs/cheerio)) and [HtmlJs-Parser](https://github.com/marko-js/htmljs-parser) (used by [Marko](https://github.com/marko-js/marko)). And [Snapdragon](https://github.com/here-be/snapdragon) (used by [Breakdance](https://github.com/breakdance/breakdance)). I kind of worked with all of them one way or the other, but not directly :smile:
+So I'm looking at a flexible enough XML / HTML parser. I checked [Parse5](https://github.com/inikulin/parse5) (used by [Reshape](https://github.com/reshape/reshape)), [HtmlParser2](https://github.com/fb55/htmlparser2) (used by [Cheerio](https://github.com/cheeriojs/cheerio)) and [HtmlJs-Parser](https://github.com/marko-js/htmljs-parser) (used by [Marko](https://github.com/marko-js/marko)). And [Snapdragon](https://github.com/here-be/snapdragon) (used by [Breakdance](https://github.com/breakdance/breakdance)). I kind of worked with all of them one way or the other, but not directly :smiley:
 
 So I have to evaluate and decide if I'll use one of them, or something else, or implement my own thing.
 
@@ -26,7 +36,7 @@ If people are not too excited, it means I didn't explain it clear enough, or it'
 
 Anyway, for v0.2, I have to create a Changelog file and maybe a Roadmap file. And I'll direct people to this blog to read the history and the news.
 
-I started 2/3 of my goals now: Spinal is work in progress, TwoFold is work in progress. I haven't started Zero-F yet, but I think I won't start it this year, there's too much on my plate already...
+I started 2/3 of my goals now: Spinal is work in progress, TwoFold is work in progress. I haven't started Zero-F yet, but I don't think I'll start it this year, there's too much on my plate already...
 
 --------------------------------------------------------------------------------
 
@@ -80,7 +90,7 @@ I already have a private blog for the Trinkets projects suite, like I have for a
 
 Now that the project is matured, I created this public blog to open my ideas around Trinkets suite to the general audience.
 
-Pheeew! I finally explained what's this all about! I want to start writing here more often, I'm writing a lot of ideas in private alredy.
+Pheeew! I finally explained what's this all about! I want to start writing here more often, I'm writing a lot of ideas in private already.
 
 --------------------------------------------------------------------------------
 
