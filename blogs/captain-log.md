@@ -1,11 +1,19 @@
 
+## 2018-November-22 (Thursday) | ⭐️ 🕸
+
+I just started a new job at [ScrapingHub](https://scrapinghub.com) and I'm really excited about it.
+
+But at the same time, this means I'll have to delay my work on these projects a little longer, until I get used to the new tools and projects.
+
+--------------------------------------------------------------------------------
+
 ## 2018-October-07 (Sunday) | ⭐️ ⚙️
 
 Not too much progress with [TwoFold (2✂︎f)](https://github.com/ShinyTrinkets/twofold.js).
 
 I discovered [nearley.js](https://nearley.js.org/) and I think this will solve my parsing dilemma.
 
-Unfortunately, I have to work on personal things these weeks, so I don't think I'll make any progress this month  :disappointed:
+Unfortunately, I have to work on some personal things these weeks, so I don't think I'll make any progress this month :disappointed:
 
 --------------------------------------------------------------------------------
 
