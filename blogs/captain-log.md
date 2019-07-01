@@ -1,4 +1,50 @@
 
+## 2018-July-01 (Monday) | ⭐️ ⚙️
+
+I believe the [Overseer](https://github.com/ShinyTrinkets/overseer) project is quite stable now, I put a lot of effort into making it better. I had to re-write a lot of the code, because when I started working at it, my Go-lang skills were horrible.
+I created a lot of tests, the coverage is ~94% now. Of course, that doesn't mean there are no bugs, but at least it's a good measure of how well are the tests hitting the code.
+Overseer is very important, because it's the core of dealing with other processes, so it needs to be rock solid.
+
+The next step for [Overseer](https://github.com/ShinyTrinkets/overseer) will be to organise the code a little better.<br/>
+I asked the creator of [go-Cmd](https://github.com/go-cmd) (a very important dependency for Overseer) to let me maintain his library and he agreed. This will force me to deal with real people, actually issues in this code and to learn how to maintain a code that is not written by me. But the most important is to give back to the community. I didn't have to do this, but I thought it's a nice thing to to, because go-Cmd has a lot of potential.<br/>
+If I'll have enough features in go-Cmd to remove the Cmd struct and logic from the Overseer, that will make me very happy.
+
+I also started thinking how to parse the infamous custom tags for [TwoFold (2✂︎f)](https://github.com/ShinyTrinkets/twofold.js). I don't think I'll be using [Nearley](https://nearley.js.org/), or any other JS library for parsing the tags. But... I never say never.
+
+I started another project that I think might be a part of Trinkets: [text-DB](https://github.com/croqaz/text-db). This might be the Database I could use to save the events and/or the Data generated from the scripts running with [Spinal 🌀](https://github.com/ShinyTrinkets/spinal).<br/>
+It will not be good enough for large scale data, but it should easily handle a few millions of records. I tested it with 4 millions and they are loaded in 60 seconds on my Macbook Air.<br/>
+I don't worry too much. This can be optimised a lot. I just need to be flexible with the implementation.
+
+I have a pretty good idea about the architecture of the Spinal app. I drew a few schemas. I feel a little lazy to convert them in digital format, because I know how hard it is to find a nice app to draw this kind of stuff... But I have to do this 😅
+
+--------------------------------------------------------------------------------
+
+## 2018-July-27 (Thursday) | ⭐️ 🧪
+
+I was really silent (publicly), for such a long time, wow...
+
+I was quite busy actually, on all the projects. More details will follow.
+
+What I wanted to write is: WOOOW, [Elixir-lang](https://elixir-lang.org) implemented "build release" in their latest version !!
+
+https://elixir-lang.org/blog/2019/06/24/elixir-v1-9-0-released/
+> Releases allow developers to precompile and package all of their code and the runtime into a single unit.
+> A release is a self-contained directory that consists of your application code, all of its dependencies, plus the whole Erlang Virtual Machine (VM) and runtime.
+> Code preloading, configuration and customisation, Self-contained, multiple releases, management scripts...
+
+I made a small test with a basic "Hello world" app in Elixir 1.9. After that, I executed:
+> MIX_ENV=prod mix release
+
+In the folder "_build/prod/rel/", the production app is only 8MB !! 😱
+
+I uninstalled Elixir and Erlang after compiling the app and I executed "_build/prod/rel/kv/bin/kv version" and some commands to run the "hello" function and it worked perfectly. That's why I'm so excited about it!
+
+Because one of the most important reasons I stopped using Elixir a few years ago, was that I couldn't find any way to export my app in a portable way, like they just implemented. And the smallest container with Elixir was a few hundred MB. Well, the second reason was the ecosystem was too small, so I had to write a lot of code just to make simple automation stuff, so I switched to Python.<br/>
+But I don't regret my decision now that I'm using Go-lang.<br/>
+Even if Go syntax is horrible and Elixir syntax is for sure, the most beautiful thing you could possible write, as a programmer. In my opinion.
+
+--------------------------------------------------------------------------------
+
 ## 2018-November-22 (Thursday) | ⭐️ 🕸
 
 I just started a new job at [ScrapingHub](https://scrapinghub.com) and I'm really excited about it.
@@ -13,7 +59,7 @@ Not too much progress with [TwoFold (2✂︎f)](https://github.com/ShinyTrinkets
 
 I discovered [nearley.js](https://nearley.js.org/) and I think this will solve my parsing dilemma.
 
-Unfortunately, I have to work on some personal things these weeks, so I don't think I'll make any progress this month :disappointed:
+Unfortunately, I have to work on some personal things these weeks, so I don't think I'll make any progress this month 😢
 
 --------------------------------------------------------------------------------
 
@@ -25,7 +71,7 @@ I'm still working on [TwoFold (2✂︎f)](https://github.com/ShinyTrinkets/twofo
 
 I added the option to define you own tag start and end characters to create fancy tags like `{{ whatever ? }}`, or double tags like `[[ whatever >]] ... [[< whatever ]]`.
 
-I'm passing the parameters that could come from the tags, into the transformer functions. So that works, but I'm blocked at parsing those options from the template tags. So if I would have a tag like `{{ foo bar=true qaz=1 qwerty="yes please" }}`, I can't parse that so easy with a simple Regex ...
+I'm passing the parameters that could come from the tags, into the transformer functions. So that works, but I'm blocked at parsing those options from the template tags. So if I would have a tag like `{{ foo bar=true qaz=1 qwerty="yes please" }}`, I can't parse that so easily with a simple Regex ...
 
 So I'm looking at a flexible enough XML / HTML parser. I checked [Parse5](https://github.com/inikulin/parse5) (used by [Reshape](https://github.com/reshape/reshape)), [HtmlParser2](https://github.com/fb55/htmlparser2) (used by [Cheerio](https://github.com/cheeriojs/cheerio)) and [HtmlJs-Parser](https://github.com/marko-js/htmljs-parser) (used by [Marko](https://github.com/marko-js/marko)). And [Snapdragon](https://github.com/here-be/snapdragon) (used by [Breakdance](https://github.com/breakdance/breakdance)). I kind of worked with all of them one way or the other, but not directly :smiley:
 
@@ -37,7 +83,7 @@ So I have to evaluate and decide if I'll use one of them, or something else, or 
 
 I just launched [TwoFold (2✂︎f)](https://github.com/ShinyTrinkets/twofold.js) v0.1 on NPM !! 🎉
 
-No. 1 reason I created TwoFold is ... to sort lines in my awesome lists :D And no. 2 is to fetch the Github or Gitlab status for those projects in the awesome lists. That's what I want to do ASAP, but I want it done properly so I'm taking the time.
+**No. 1** reason I created TwoFold is ... to sort lines in my awesome lists :D And no. 2 is to fetch the Github or Gitlab status for those projects in the awesome lists. That's what I want to do ASAP, but I want it done properly so I'm taking the time.
 
 I have huge hopes for this library, but there's so much to do... v0.1 is just a proof of concept. I intend to go up to a certain point and I'll wait for feedback from the people using it. If the people are not too excited, I'll focus my energy back to Spinal.<br />
 If people are not too excited, it means I didn't explain it clear enough, or it's not that easy to use day by day, and that would make sense because not many people like command line tools. At least I'll learn something from that.
@@ -50,7 +96,7 @@ I started 2/3 of my goals now: Spinal is work in progress, TwoFold is work in pr
 
 ## 2018-September-18 (Tuesday) | ⭐️ ⚙️
 
-Let's start with the beggining: what's the focus of the **Trinkets** applicatins, when and where did this idea start and why this is still relevant today. I'll talk about the "how" another time.
+Let's start with the beggining: what's the focus of the **Trinkets** applications, when and where did this idea start and why this is still relevant today. I'll talk about the "how" another time.
 
 In 2008, I was working in a data processing company and I noticed that I was repeatedly doing the same things every X intervals of time. Depending on the client, some tasks were daily, others weekly, others monthly. And with some exceptions, when humans weren't respecting the procedures, the flow was exactly the same: get the data as ZIP/RAR from somewhere, extract it, make some preparation of the data, run some commands that convert the data to invoices/letters, compress the result, generate some reports of the input and output numbers and upload the results somewhere, or send an e-mail.
 
@@ -70,7 +116,7 @@ Over the years, I did spend some time here and there on this project, but my foc
 * 2016 - Triceratops.ex - written in Elixir, probably the most elegant implementation
 * 2016 - Triceratops/Trinkets.py - written in Python3.5, this was the most advanced version, the scripts were written in in Coconut
 
-At the end of 2016 I renamed the project to Trinkets.
+At the end of 2016 I renamed the project to "Trinkets".
 
 * 2017 - Trinkets.js take 2 - using ES6, I spent a lot of time in this one, before I switched to Golang
 * 2018 - TwoFold.cr - some experiments in Crystal lang (will be re-written to TwoFold.js)
@@ -79,10 +125,10 @@ At the end of 2016 I renamed the project to Trinkets.
 In 2018 I spent a lot of time thinking about the overall directions and I believe the vision of the project has matured.
 Also, instead of 1 app, now there are 3 apps and some helper libraries.
 
-1. most of the old idea of Triceratops/Trinkets is now called [Spinal 🌀](https://github.com/ShinyTrinkets/spinal)
+1. most of the old idea of Triceratops/old Trinkets is now called [Spinal 🌀](https://github.com/ShinyTrinkets/spinal)
 2. the template/ translation/ calculator is called [TwoFold (2✂︎f)](https://github.com/ShinyTrinkets/twofold.js)
 3. the intelligence engine is called [Zero-f (0-f)](https://github.com/ShinyTrinkets/zero-f)
-4. [Overseer.go](https://github.com/ShinyTrinkets/overseer.go) is a light process manager library
+4. [Overseer-go](https://github.com/ShinyTrinkets/overseer) is a light process manager library
 
 These applications and libraries working together should accomplish my vision. I hope you're prepared for this: I imagine Trinkets as a *distributed, self-healing, self-managing, self-hosted* alternative to *Siri + Google Now + Alexa*, combined with *IFTTT + Zapier + Automate.io + Integromat* ...
 
@@ -94,7 +140,7 @@ For this to become reality the way I see it, I roughly estimate it will take me 
 Considering I'm already working full time, so I have like 1-3 hours spare time to work on this everyday.
 And of course, I would have to find the time to work everyday.
 
-I already have a private blog for the Trinkets projects suite, like I have for all the major projects I was ever part of. I made the first record in April 10, 2016.
+I already have a huge private blog for the Trinkets projects suite, like I have for all the major projects I was ever part of. I made the first record in April 10, 2016.
 
 Now that the project is matured, I created this public blog to open my ideas around Trinkets suite to the general audience.
 
