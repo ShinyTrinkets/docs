@@ -1,5 +1,23 @@
 
-## 2018-July-01 (Monday) | ⭐️ ⚙️
+## 2019-July-02 (Tuesday) | ⭐️ ⒫＝⒫
+
+I believe decentralized applications are very important and I'm not the only one to think that.<br/>
+I've been watching the P2P and crypto space for years. For me personally, [decentralization technologies](https://github.com/croqaz/awesome-decentralized) =equal= freedom. Freedom to choose where you send your data and where you store it. Because if there are no "cloud" servers, you are in control.
+
+I want to use P2P network protocols for the Trinkets suite, because there won't be any servers.<br/>
+This is not the most natural, or the most confortable thing to do, but it's the only way that aligns to my vision.<br/>
+This will be needed to allow the [Spinal 🌀](https://github.com/ShinyTrinkets/spinal) applications talk to each other, sync up, share logs, share data, or collaborate to finish tasks.
+
+I started to watch some podcasts about decentralized technologies:
+* IRL podcast [S4 Ep6: Decentralize It](https://irlpodcast.org/season4/episode6/)
+* Changelog podcast [Ep 346: Off the grid social networking with Manyverse](https://changelog.com/podcast/346)
+* Changelog podcast [Ep 42: Decentralizing the web with Beaker](https://changelog.com/jsparty/42)
+
+I'm sure there are many others and I'll find them.
+
+--------------------------------------------------------------------------------
+
+## 2019-July-01 (Monday) | ⭐️ ⚙️
 
 I believe the [Overseer](https://github.com/ShinyTrinkets/overseer) project is quite stable now, I put a lot of effort into making it better. I had to re-write a lot of the code, because when I started working at it, my Go-lang skills were horrible.
 I created a lot of tests, the coverage is ~94% now. Of course, that doesn't mean there are no bugs, but at least it's a good measure of how well are the tests hitting the code.
@@ -19,7 +37,7 @@ I have a pretty good idea about the architecture of the Spinal app. I drew a few
 
 --------------------------------------------------------------------------------
 
-## 2018-July-27 (Thursday) | ⭐️ 🧪
+## 2019-July-27 (Thursday) | ⭐️ 🧪
 
 I was really silent (publicly), for such a long time, wow...
 
