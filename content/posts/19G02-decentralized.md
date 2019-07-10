@@ -1,5 +1,5 @@
 ---
-title: "Decentralized technologies ⒫＝⒫"
+title: "Decentralized technologies Ⓟ2Ⓟ"
 date: "2019-07-02"
 author: CroQ
 ---
@@ -14,10 +14,9 @@ This will be needed to allow the [Spinal 🌀](https://github.com/ShinyTrinkets/
 Github has a specific topic about it: [Github decentralization topic](https://github.com/topics/decentralization).
 
 I started to watch some podcasts about decentralized technologies:
+
 * IRL podcast [S4 Ep6: Decentralize It](https://irlpodcast.org/season4/episode6/)
 * Changelog podcast [Ep 346: Off the grid social networking with Manyverse](https://changelog.com/podcast/346)
 * Changelog podcast [Ep 42: Decentralizing the web with Beaker](https://changelog.com/jsparty/42)
-
-Also: https://decentralizedtalk.com/episodes/
 
 I'm sure there are many others and I'll find them, if I have time.
