@@ -8,6 +8,8 @@ I want to use P2P network protocols for the Trinkets suite, because there won't 
 This is not the most natural, or the most confortable thing to do, but it's the only way that aligns to my vision.<br/>
 This will be needed to allow the [Spinal 🌀](https://github.com/ShinyTrinkets/spinal) applications talk to each other, sync up, share logs, share data, or collaborate to finish tasks.
 
+Github has a specific topic about it: [Github decentralization topic](https://github.com/topics/decentralization).
+
 I started to watch some podcasts about decentralized technologies:
 * IRL podcast [S4 Ep6: Decentralize It](https://irlpodcast.org/season4/episode6/)
 * Changelog podcast [Ep 346: Off the grid social networking with Manyverse](https://changelog.com/podcast/346)
