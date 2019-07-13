@@ -53,7 +53,7 @@ This line is extracted from *[jrnl](http://jrnl.sh/)* manifest:
 
 > jrnl is a simple journal application for your command line. Journals are stored as human readable plain text files - you can put them into a Dropbox folder for instant syncing and you can be assured that your journal will still be readable in 2050, when all your fancy iPad journal applications will long be forgotten.
 
-This paragraph is extracted from *[Urbit overview](https://urbit.org/posts/overview/)*.
+This paragraph is extracted from *[Urbit overview](https://urbit.org/posts/an-urbit-overview/)*.
 
 > Can you remember all the services you have accounts for? How about the username and password for each? Some of them will let you pull your data out somehow, some won’t. Sometimes you can move your data between them, sometimes you can’t. But they're all good at showing you ads.
 
