@@ -9,7 +9,7 @@ Procrastination and delay are both forms of lazyness.
 I'm fighting my own laziness daily.<br/>
 Sometimes I actually win...
 
-In one of my previous posts I promised to publish some diagrams of the Trinkets architecture.
+In one of my previous posts, I promised to publish some diagrams of the Trinkets architecture.
 
 What I care about at the highest level is the data flow. Inputs and Outputs.
 All the implementation details are intentionally ignored, so Trinkets is just a "black box" that you can interact with.

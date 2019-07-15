@@ -9,7 +9,8 @@ I'm fascinated every time I discover an ecosystem of apps and tools that is simi
 I feel excited like I've encountered an ancient civilization from another dimension, hidden for 1 million years.
 
 It took me a week to study most of the interesting repositories when I could find some spare time.<br/>
-At first I was totally overwhelmed by the number of weird names (eg: Arvelie, Heol, Indental, Tablatal, Neralie, Oscean) and I thought "Maybe it's in Finnish, or maybe Volapük". Now I think it's in [Lietal](https://wiki.xxiivv.com/lietal) - an experimental synthetic language - I might be wrong.
+At first I was totally overwhelmed by the number of weird names (eg: Arvelie, Heol, Indental, Tablatal, Neralie, Oscean, Horaire) and I thought "Maybe it's in Finnish, or maybe Volapük". Now I think it's in [Lietal](https://wiki.xxiivv.com/lietal) - an experimental synthetic language - I might be wrong.<br/>
+I also thought it's related to [Urbit](https://urbit.org/), because of the names, but they're actually not related.
 
 All the tools below are documented on [wiki.XXIIVV.com](https://wiki.xxiivv.com):
 
@@ -24,10 +25,11 @@ Which is absolutely amazing!
 
 There are other ecosystems that I was also made me enthusiastic in the past, a few come to mind:
 
-* https://github.com/ipfs/ and the whole system around it;
-* https://github.com/urbit/ decentralized operating system;
-* https://github.com/choojs/ small browser tools written in Javascript;
-* https://github.com/mafintosh/hypercore and the whole stack build on top of that: hypertrie, hyperdb, hyperdrive, etc.
+* [IPFS](https://github.com/ipfs/) and the whole system around it;
+* [Urbit](https://github.com/urbit/) decentralized operating system;
+* [Choo.js](https://github.com/choojs/) small browser tools written in Javascript;
+* [hyperCore](https://github.com/mafintosh/hypercore) and the whole stack build on top of that: hypertrie, hyperdb, hyperdrive, etc.
+* [remoteStorage](https://remotestorage.io/) and "storage on the Web" ecosystem.
 
 ... But XXIIVV is a little closer to what I'm building.
 

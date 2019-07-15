@@ -6,9 +6,9 @@ author: CroQ
 
 Hello, lack of internet...
 
-For some reason I don't have Internet today, so I can't do much...
+For some reason, I don't have Internet today, so I can't do much...
 
-However, it's a blessing, because I realise just how much I depend on it.
+However, it's a blessing, because I realize just how much I depend on it.
 
 Things that I have offline, so I was prepared:
 
