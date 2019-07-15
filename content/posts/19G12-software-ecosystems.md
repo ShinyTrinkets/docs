@@ -2,6 +2,7 @@
 title: "Software ecosystems: XXIIVV"
 date: "2019-07-12"
 publishDate: "2019-07-13"
+tags: ["ecosystems"]
 author: CroQ
 ---
 

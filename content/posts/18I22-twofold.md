@@ -1,6 +1,7 @@
 ---
 title: "TwoFold v0.1 🚀 ✂︎"
 date: "2018-09-22"
+tags: ["twofold"]
 author: CroQ
 ---
 

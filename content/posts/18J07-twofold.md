@@ -1,6 +1,7 @@
 ---
 title: "TwoFold WIP ✂︎"
 date: "2018-10-07"
+tags: ["twofold"]
 author: CroQ
 ---
 

@@ -2,6 +2,7 @@
 title: "High level diagrams 🔩"
 date: "2019-07-03"
 publishDate: "2019-07-10"
+tags: ["spinal"]
 author: CroQ
 ---
 
