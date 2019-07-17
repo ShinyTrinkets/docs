@@ -1,5 +1,5 @@
 ---
-title: "The history of Trinkets ⭐️ ⚙️"
+title: "⭐️ ⚙️ The history of Trinkets"
 date: "2018-09-18"
 author: CroQ
 ---

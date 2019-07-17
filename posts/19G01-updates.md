@@ -1,5 +1,6 @@
 ---
-title: "Start of July 2019 updates ⚙️"
+title: "️️Start of July 2019 updates"
+icon: <i class="fas fa-scroll"></i>
 date: "2019-07-01"
 author: CroQ
 ---

@@ -1,5 +1,5 @@
 ---
-title: "What is Trinkets ⭐️ ⚙️"
+title: "⭐️ ⚙️ What is Trinkets"
 date: "2018-08-15"
 author: CroQ
 description: "What is Trinkets? The Constitution and Manifest."

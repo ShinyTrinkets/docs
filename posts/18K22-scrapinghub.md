@@ -1,5 +1,5 @@
 ---
-title: "New job at ScrapingHub 🕸"
+title: "🕸 New job at ScrapingHub"
 date: "2018-11-22"
 author: CroQ
 ---

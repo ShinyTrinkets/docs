@@ -1,6 +1,6 @@
 ---
-title: "High level diagrams 🔩"
-icon: "<i class="fas fa-project-diagram"></i>"
+title: "High level diagrams"
+icon: <i class="fas fa-project-diagram"></i>
 date: "2019-07-03"
 publishDate: "2019-07-10"
 tags: ["spinal"]

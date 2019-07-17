@@ -1,6 +1,6 @@
 ---
 title: "Hello, lack of internet"
-icon: "<i class="fas fa-network-wired"></i>"
+icon: <span class="fa-stack" style="font-size:1.25rem;margin-top:-.5rem;"><i class="fas fa-network-wired fa-stack-1x"></i><i class="fas fa-ban fa-stack-2x" style="color:Tomato"></i></span>
 date: "2019-07-11"
 tags: ["internet"]
 author: CroQ

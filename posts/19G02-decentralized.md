@@ -1,5 +1,5 @@
 ---
-title: "Decentralized technologies Ⓟ2Ⓟ"
+title: "Ⓟ2Ⓟ Decentralized technologies"
 date: "2019-07-02"
 author: CroQ
 ---

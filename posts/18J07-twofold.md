@@ -1,5 +1,5 @@
 ---
-title: "TwoFold WIP ✂︎"
+title: "✂︎ TwoFold WIP 2"
 date: "2018-10-07"
 tags: ["twofold"]
 author: CroQ

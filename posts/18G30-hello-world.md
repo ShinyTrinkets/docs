@@ -1,5 +1,5 @@
 ---
-title: "Hello world ☀️ 👋"
+title: "☀️ 👋 Hello world"
 date: "2018-07-30"
 author: CroQ
 ---
