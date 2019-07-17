@@ -1,5 +1,6 @@
 ---
 title: "Hello Interneț 🌐"
+icon: "<i class="fas fa-globe"></i>"
 date: "2019-07-11"
 tags: ["internet"]
 author: CroQ

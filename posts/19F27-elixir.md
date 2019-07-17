@@ -1,5 +1,6 @@
 ---
 title: "Elixir v1.9 🧪"
+icon: "<i class="fas fa-vial"></i>"
 date: "2019-06-27"
 author: CroQ
 ---

@@ -1,5 +1,6 @@
 ---
-title: "Hello, lack of internet 🚫🔌"
+title: "Hello, lack of internet"
+icon: "<i class="fas fa-network-wired"></i>"
 date: "2019-07-11"
 tags: ["internet"]
 author: CroQ
