@@ -6,15 +6,20 @@ tags = ["info", "about"]
 description = "Shiny Trinkets, or simply Trinkets is the name of a place to create free and open applications and libraries."
 +++
 
+This blog is about the "Trinkets" project.<br/>
+You will find tech articles and general life philosophy around how to write code and manage projects.<br/>
+It is public in the hope that it is useful for somebody.
+
+
 "Shiny Trinkets" or "Trinkets" is the name of a Organization located on [<i class="fab fa-github"></i> Github](https://github.com/ShinyTrinkets/) and [<i class="fab fa-gitlab"></i> Gitlab](https://gitlab.com/ShinyTrinkets/) - a place to create free & open applications and libraries.
 
 The idea of this project started in 2009 and it's going slowly ever since.
 
-This is a (incomplete) list of applications:
+This is a (work in progress) list of applications:
 
-1. [Spinal 🌀](https://github.com/ShinyTrinkets/spinal) code runner
+1. [Spinal 🌀](https://github.com/ShinyTrinkets/spinal) a code runner
 1. [TwoFold (2✂︎f)](https://github.com/ShinyTrinkets/twofold.js) smart templates
-1. [Overseer-go](https://github.com/ShinyTrinkets/overseer), a light process manager library
+1. [Overseer-go](https://github.com/ShinyTrinkets/overseer) a light process manager library
 
 
 # Trinkets Constitution / Manifest / Philosophy
