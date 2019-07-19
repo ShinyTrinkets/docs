@@ -2,7 +2,7 @@
 title: "Hello Interneț"
 icon: <i class="fas fa-globe"></i>
 date: "2019-07-11"
-tags: ["internet"]
+tags: ["website", "internet"]
 author: CroQ
 ---
 
@@ -10,7 +10,7 @@ Hello again Interneț!
 
 I just published this blog on the website https://trinkets.tech/ !
 
-It is powered by the [HUGO](https://gohugo.io/) site generator.
+It is powered by the [Hugo](https://gohugo.io/) site generator.
 
 The posts are still available in the https://github.com/ShinyTrinkets/docs/ repository and you can view the history of all changes.
 

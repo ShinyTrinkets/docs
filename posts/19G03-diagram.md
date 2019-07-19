@@ -20,6 +20,8 @@ A User can interact with Trinkets via command line, or via a browser user interf
 For every interaction, the User will see a log, an event and/or some data being generated as a response.<br/>
 
 
+### High level diagram
+
 ![Diagram 1](/images/posts/trinkets-diag1.svg)
 
 {{< collapse >}}
@@ -45,6 +47,8 @@ View diagram 1 source
 {{< /highlight >}}
 {{< /collapse >}}
 
+
+### Detail diagram
 
 ![Diagram 2](/images/posts/trinkets-diag2.svg)<br/>
 

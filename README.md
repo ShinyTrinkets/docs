@@ -1,10 +1,12 @@
-# Trinkets 📖 blogs and specs
+# Trinkets 📖 tech blog
 
 [![Project name][project-img]][project-url]
 
-Welcome to Shiny Trinkets documents!
+Welcome to the Shiny Trinkets blog!
 
-This is work-in-progress. For now you can navigate to [blogs/](blogs/) and read the posts there.
+All the posts are available in the [posts/](posts/) folder.
+
+They are also published on https://trinkets.tech/ 🌐
 
 [project-img]: https://badgen.net/badge/%E2%AD%90/Trinkets/4B0082
 [project-url]: https://github.com/ShinyTrinkets
