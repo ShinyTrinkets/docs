@@ -29,8 +29,9 @@ There are other ecosystems that I was also made me enthusiastic in the past, a f
 * [IPFS](https://github.com/ipfs/) and the whole system around it;
 * [Urbit](https://github.com/urbit/) decentralized operating system;
 * [Choo.js](https://github.com/choojs/) small browser tools written in Javascript;
+* [Scuttlebutt](https://scuttlebutt.nz/) a decent(ralised) secure gossip platform
 * [hyperCore](https://github.com/mafintosh/hypercore) and the whole stack build on top of that: hypertrie, hyperdb, hyperdrive, etc.
-* [remoteStorage](https://remotestorage.io/) and "storage on the Web" ecosystem.
+* [remoteStorage](https://remotestorage.io/) and the "storage on the Web" ecosystem.
 
 ... But XXIIVV is a little closer to what I'm building.
 
